@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * This class is a helper class to the node class used to write the graph class.
  */
 public class Node {
-
+ 
 	int visitedOrder;
 	public Node p;
 	ArrayList<Node> adjacent;

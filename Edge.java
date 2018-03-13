@@ -3,7 +3,7 @@
  * This class is a helper class to the edge class used to write the graph class.
  */
 public class Edge {
-
+ 
 	Edge next = null;
 	Node node;
 
