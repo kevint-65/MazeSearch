@@ -1,1 +1,1 @@
-This program will utilize Depth First Search and Breadth First Search to Solve a randomly Generated Maze 
+This program will utilize the  Depth First Search and Breadth First Search Algorithm to Solve a randomly Generated Maze
