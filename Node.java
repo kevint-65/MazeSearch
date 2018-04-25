@@ -16,10 +16,10 @@ public class Node {
 	public boolean inLine, Lcol, Rcol, Trow, Brow;
 	public boolean leftExist, rightExist, topExist, bottomExist;
 	public boolean wasVisited;
-	Graph graph;
+	Maze graph;
 
 	// constructor for the node class
-	public Node(Graph graph, int i, int j, int label) {
+	public Node(Maze graph, int i, int j, int label) {
 
 		leftExist = true;
 		rightExist = true;
@@ -30,7 +30,7 @@ public class Node {
 		Rcol = false;
 		Trow = false;
 		Brow = false;
-		color = Graph.WHITE;
+		color = Maze.WHITE;
 		adjacent = new ArrayList<>();
 		visitedOrder = 0;
 		this.graph = graph;
